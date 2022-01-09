@@ -1,0 +1,40 @@
+.subtotal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+  height: 100px;
+  align-items: center;
+  padding: 20px;
+}
+
+.subtotal__gift {
+  display: flex;
+  align-items: center;
+}
+.subtotal__gift > input {
+  margin-right: 5px;
+}
+
+.subtotal > button {
+  width: 100%;
+  color: #31344b;
+  background-color: #d1d9e6;
+  border-color: #d1d9e6;
+  box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
+  border: 0.0625rem solid transparent;
+  border-radius: 0.55rem;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.subtotal > button:active {
+  width: 100%;
+  color: #31344b;
+  background-color: #d1d9e6;
+  border-color: #d1d9e6;
+  box-shadow: inset 3px 3px 6px #b8b9be, inset -3px -3px 6px #fff;
+  border: 0.0625rem solid transparent;
+  border-radius: 0.55rem;
+  padding: 5px 10px;
+  cursor: pointer;
+}
